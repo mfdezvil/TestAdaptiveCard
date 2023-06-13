@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "test-adaptive-card-client-side-solution",
+    "id": "85c4acd2-67e1-417a-9e37-9db5bf6beedc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "test-adaptive-card description"
+      },
+      "longDescription": {
+        "default": "test-adaptive-card description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "test-adaptive-card Feature",
+        "description": "The feature that activates elements of the test-adaptive-card solution.",
+        "id": "4170aacd-b922-4ad5-b6f7-ab3b5bccae76",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/test-adaptive-card.sppkg"
+  }
+}
